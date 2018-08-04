@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Stores">
+      <UniqueIdentifier>{e24e8f4d-f030-4fe6-ae6c-ed92bad319b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pizzas">
+      <UniqueIdentifier>{d6f78746-ef82-4f89-8438-a722f9632b59}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PizzaStore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Stores\iStore.cpp">
+      <Filter>Source Files\Stores</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Pizzas\iPizza.cpp">
+      <Filter>Source Files\Pizzas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Stores\ChicagoPizzaStore.cpp">
+      <Filter>Source Files\Stores</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Stores\NYPizzaStore.cpp">
+      <Filter>Source Files\Stores</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Pizzas\ChicagoStyleCheesePizza.cpp">
+      <Filter>Source Files\Pizzas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Pizzas\NYStyleCheesePizza.cpp">
+      <Filter>Source Files\Pizzas</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Stores\iStore.h">
+      <Filter>Source Files\Stores</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Pizzas\iPizza.h">
+      <Filter>Source Files\Pizzas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Stores\ChicagoPizzaStore.h">
+      <Filter>Source Files\Stores</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Stores\NYPizzaStore.h">
+      <Filter>Source Files\Stores</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Pizzas\ChicagoStyleCheesePizza.h">
+      <Filter>Source Files\Pizzas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Pizzas\NYStyleCheesePizza.h">
+      <Filter>Source Files\Pizzas</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
